@@ -1,0 +1,41 @@
+body {
+			background-color:black;
+		}
+a {
+	text-decoration: none;
+}
+div {
+	background-color: white;
+	opacity: 0.8;
+	text-align: center;
+}
+.button {
+	border-color: black;
+	background-color: brown;
+	border-radius: 10px;
+	font-size: 30px;
+	color: white;
+}
+table {
+	border-collapse: collapse;
+}
+th {
+	font-size: 30px;
+}
+td{
+	font-size: 25px;
+}
+th,td {
+	text-align: center;
+	padding: 20px;
+}
+table tr:nth-child(even) {
+    background-color: seashell;
+}
+table tr:nth-child(odd) {
+   background-color:peachpuff;
+}
+table th {
+    background-color: black;
+    color: white;
+}
