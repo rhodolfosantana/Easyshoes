@@ -1,17 +1,23 @@
 body {
-			background-color:black;
-		}
+	background-color:#CC0000;
+}
 a {
 	text-decoration: none;
 }
+header {
+	background-color: white;
+}
 div {
 	background-color: white;
-	opacity: 0.8;
 	text-align: center;
+}
+a {
+	font-size: 42px;
+	color: black;
 }
 .button {
 	border-color: black;
-	background-color: brown;
+	background-color: black;
 	border-radius: 10px;
 	font-size: 30px;
 	color: white;

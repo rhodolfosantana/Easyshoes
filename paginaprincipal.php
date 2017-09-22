@@ -16,9 +16,16 @@ session_start();
 		<link rel="stylesheet" type="text/css" href="cadastro.css">
 	</head>
 	<body>
+		<header>
+			<img src="logo.jpg" width="300px"> 
+			<a href="xxx.php"> Sobre Nós |</a> 
+			<a href="xxx.php"> Mais Vendidos |</a>
+			<a href="xxx.php"> Asdfgh |</a>
+			<a href="xxx.php"> Asdfgh |</a>
+			Olá, <?=$_SESSION['dadousuario']?>!
+			<a class="button" href="sair.php"> DESLOGAR </a>
+		</header>
 		<div>
-				<h1>Olá, <?=$_SESSION['dadousuario']?>!</h1>
-				<a class="button" href="sair.php"> DESLOGAR </a>
 			<table border= "2px solid black" align="center">
 				<h1>SAPATOS CADASTRADOS: </h1>
 					<tr>
