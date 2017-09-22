@@ -49,7 +49,7 @@
 
   									<summary style="color:white; font-size: 1.5em;">Cadastro</summary>
 							  		<p><a href=""> - Produtos</a></p>
-							  		<p><a href="">- Funcionários</a></p>
+							  		<p><a href="login.php">- Funcionários</a></p>
 
 								</details>
 							</li>     
