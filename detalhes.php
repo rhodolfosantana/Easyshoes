@@ -6,7 +6,7 @@
 	?>
 	<!DOCTYPE html>
 	<title>DETALHES DO FILME</title>
-		<link rel="stylesheet" type="text/css" href="cadastro.css">
+		<link rel="stylesheet" type="text/css" href="css/cadastro.css">
 	</head>
 	<body>
 		<div>

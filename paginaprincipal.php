@@ -13,11 +13,11 @@ session_start();
 <html>
 	<head>
 		<title>CADASTRO</title>
-		<link rel="stylesheet" type="text/css" href="cadastro.css">
+		<link rel="stylesheet" type="text/css" href="css/cadastro.css">
 	</head>
 	<body>
 		<header>
-			<img src="logo.jpg" width="300px"> 
+			<img src="imagens/logo.jpg" width="300px"> 
 			<a href="xxx.php"> Sobre Nós |</a> 
 			<a href="xxx.php"> Mais Vendidos |</a>
 			<a href="xxx.php"> Asdfgh |</a>
