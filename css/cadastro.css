@@ -12,7 +12,7 @@ div {
 	text-align: center;
 }
 a {
-	font-size: 42px;
+	font-size: 30px;
 	color: black;
 }
 .button {
@@ -33,7 +33,7 @@ td{
 }
 th,td {
 	text-align: center;
-	padding: 20px;
+	padding: 10px;
 }
 table tr:nth-child(even) {
     background-color: seashell;

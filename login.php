@@ -8,8 +8,9 @@
 <body>
 	<div>
 	<form action="conferelogin.php" method="POST">
+			<img src="imagens/logo.jpg">
 			<h1>Login:</h1>
-	       Usuário <input type="text" name="login">
+	       Usuário ou Email<input type="text" name="login">
 	       Senha <input type="password" name="senha"> <br><br>
 	        <input class="button" type="submit" value="Logar"> 
 	    </form>

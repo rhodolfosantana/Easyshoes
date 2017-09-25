@@ -18,15 +18,15 @@ session_start();
 	<body>
 		<header>
 			<img src="imagens/logo.jpg" width="300px"> 
-			<a href="xxx.php"> Sobre Nós |</a> 
 			<a href="xxx.php"> Mais Vendidos |</a>
-			<a href="xxx.php"> Asdfgh |</a>
-			<a href="xxx.php"> Asdfgh |</a>
+			<a href="xxx.php"> ABCDEFG |</a>
+			<a href="xxx.php"> 	Home |</a>
 			Olá, <?=$_SESSION['dadousuario']?>!
 			<a class="button" href="sair.php"> DESLOGAR </a>
 		</header>
 		<div>
 			<table border= "2px solid black" align="center">
+			 	<?php if ($sapato): ?>
 				<h1>SAPATOS CADASTRADOS: </h1>
 					<tr>
 						<th> Marca </th>
@@ -35,11 +35,12 @@ session_start();
 						<th> Cor </th>
 						<th> Quantidade </th>
 					</tr>
+					<?php endif ?>
 			        <?php 
-			        if (!$sapato){
-			        	echo "Nenhum filme disponível"; 
-			        }
-				        foreach ($sapato as $array => $dado): ?>
+			        if (!$sapato): ?>
+			        	<h2>Nenhum Sapato Cadastrado </h2>
+			        <?php endif ?>
+			        <?php foreach ($sapato as $array => $dado): ?>
 				            <tr>
 				                <td><?=$dado[0]?></td>
 				                <td><?=$dado[1]?></td>
