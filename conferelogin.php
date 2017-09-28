@@ -5,7 +5,7 @@
     $senha = $_POST["senha"];
     $_SESSION['logado'] = false;
         if (!isset($_SESSION['usuario'])) {
-            $_SESSION['usuario'] = "";
+            $_SESSION['usuario'] = array();
         }
         if (isset($_SESSION['usuario'])) {
             foreach ($_SESSION['usuario'] as $usuario => $valor) {
