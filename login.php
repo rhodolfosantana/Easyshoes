@@ -15,7 +15,7 @@
 	        <input class="button" type="submit" value="Logar"> 
 	    </form>
 	    <h1>Não é cadastrado(a)?</h1>
-	    <a class="button" href="cadastrarusuario.php">Cadastre-se!</a>
+	    <a class="button" href="register_user.php">Cadastre-se!</a>
 	</div>
 </body>
 </html>
