@@ -47,7 +47,7 @@ session_start();
 				                <td><?=$dado[2]?></td>
 				                <td><?=$dado[3]?></td>
 				                <td><?=$dado[4]?></td>
-				                <td><a href="apagar.php?id=<?=$array?>"> Apagar Sapato </a></td>
+				                <td><a href="delete.php?id=<?=$array?>"> Apagar Sapato </a></td>
 				            </tr>
 			        <?php endforeach ?>
 		    </table>
