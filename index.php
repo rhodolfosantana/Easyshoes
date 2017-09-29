@@ -44,7 +44,7 @@
 						<nav id="menu">
 						    <ul>
 						        <li>
-						        <li><a href="paginaprincipal.php">Cadastrar Produto |</a></li>
+						        <li><a href="main_page.php">Cadastrar Produto |</a></li>
 								<li><a href="xxx.php">Nossos Produtos |</a></li>
 								<li><a href="sobreshoes.html">Sobre Nós |</a></li>
 								<li><a href="paginaprincipal.php">Página do Funcionário</a></li>
