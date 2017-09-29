@@ -6,5 +6,5 @@ session_start();
  $cor = $_POST['cor'];
  $quantidade = $_POST['quantidade'];
 array_push($_SESSION['sapatos'], [$marca, $modelo, $duracao, $cor, $quantidade]);
- header('location:paginaprincipal.php');
+ header('location:main_page.php');
 ?>
