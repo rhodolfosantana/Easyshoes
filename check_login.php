@@ -16,7 +16,7 @@
 
                     header('location: main_page.php');
                 } else {
-                    header('location: usuarioincorreto.php');
+                    header('location: user_incorrect.php');
                 }
              }
         }
