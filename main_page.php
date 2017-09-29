@@ -22,7 +22,7 @@ session_start();
 			<a href="xxx.php"> ABCDEFG |</a>
 			<a href="xxx.php"> 	Home |</a>
 			Olá, <?=$_SESSION['dadousuario']?>!
-			<a class="button" href="sair.php"> DESLOGAR </a>
+			<a class="button" href="logout.php"> DESLOGAR </a>
 		</header>
 		<div>
 			<table border= "2px solid black" align="center">
