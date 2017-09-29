@@ -37,9 +37,8 @@
 		</style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-			<body>
-				<div>
-				<img src="imagens/logo.jpg">
+		<header>
+			<img src="imagens/logo.jpg">
 					
 						<nav id="menu">
 						    <ul>
@@ -50,6 +49,5 @@
 								<li><a href="paginaprincipal.php">Página do Funcionário</a></li>
 							</ul>
 						</nav>
-				</div>	
-			</body>
+	</header>
 </html>
