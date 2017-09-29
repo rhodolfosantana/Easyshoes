@@ -54,7 +54,7 @@ session_start();
 
 
 		<h1>CADASTRAR NOVO SAPATO: </h1>
-			<form action="processasapato.php" method="POST">
+			<form action="process_product.php" method="POST">
 					<h2>Marca: <input type="text" name="marca"></h2>
 					<h2>Modelo: <input type="text" name="modelo"></h2>
 					<h2>Tamanho: <input type="tamanho" name="duracao"></h2>
