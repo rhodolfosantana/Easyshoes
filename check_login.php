@@ -14,7 +14,7 @@
                     $_SESSION['logado'] = true;
                     $_SESSION['dadousuario'] =  $valor[0];
 
-                    header('location: paginaprincipal.php');
+                    header('location: main_page.php');
                 } else {
                     header('location: usuarioincorreto.php');
                 }
