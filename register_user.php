@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>CADASTRO</title>
-	<link rel="stylesheet" type="text/css" href="css/cadastro.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+<?php include 'header.php';?>
 <body>
 	<div>
 		<form action="sign_up.php" method="POST">
@@ -18,5 +12,7 @@
 	    		<a class="button" href="login.php">Faça o Login!</a>
 		</form>
 	</div>
+	<link rel="stylesheet" type="text/css" href="css/cadastro.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </body>
 </html>
