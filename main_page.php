@@ -8,24 +8,13 @@ session_start();
 	if ($_SESSION['logado'] != true) {
 	    header('location: login.php');
 	}
+       include 'header.php';
 ?>
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>CADASTRO</title>
-		<link rel="stylesheet" type="text/css" href="css/cadastro.css">
-	</head>
+
+	
 	<body>
-		<header>
-			<img src="imagens/logo.jpg" width="300px"> 
-			<a href="xxx.php"> Mais Vendidos |</a>
-			<a href="xxx.php"> ABCDEFG |</a>
-			<a href="xxx.php"> 	Home |</a>
-			Olá, <?=$_SESSION['dadousuario']?>!
-			<a class="button" href="logout.php"> DESLOGAR </a>
-		</header>
-		<div>
-			<table border= "2px solid black" align="center">
+	<link rel="stylesheet" type="text/css" href="css/cadastro.css">		
+		<table border= "2px solid black" align="center">
 			 	<?php if ($sapato): ?>
 				<h1>SAPATOS CADASTRADOS: </h1>
 					<tr>
