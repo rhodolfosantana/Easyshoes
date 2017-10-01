@@ -1,9 +1,4 @@
-<html>
-	<head>
-	 	<title>Sobre: EasyShoes</title>
-	 	<link rel="stylesheet" type="text/css" href="css/sobreshoes.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
+<?php include 'header.php';?> 	
 	<body>
 	 	<div>
 	 		<img src="imagens/logomarca.jpg">
@@ -39,6 +34,8 @@
 			 <p>Lucas Walcemberg Otacílio da Silva - IFPE CAMPUS OLINDA - <b> walcemberglucas@gmail.com</b></p><br>
 			 <p>Projeto da disciplina Projeto e Prática 1 do curso IPI - Informática Para Internet. <br>
 			 Professor e orientador: Alexandre Vianna - Alexandrevianna.net</p> <br>
-		</div>
+	
+		<link rel="stylesheet" type="text/css" href="css/sobreshoes.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"></div>
 	</body>
 </html> 
